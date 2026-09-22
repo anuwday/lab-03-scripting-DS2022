@@ -1,0 +1,19 @@
+[project]
+name = "lab-03-scripting-ds2022"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "anuwday", email = "uuganbatanu@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+lab-03-scripting-ds2022 = "lab_03_scripting_ds2022:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
